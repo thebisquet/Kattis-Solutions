@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+
+        int age, i;
+        float quality, years, end=0.0;
+
+        scanf(" %d", &age);
+
+        for(i=0; i<age; i++) {
+                scanf("%f", &quality);
+                scanf("%f", &years);
+                end+=(years*quality);
+        }
+
+        printf("%.3f\n", end);
+
+        return 0;
+}
