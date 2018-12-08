@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+
+        int contestants, solves, i;
+        char description[20];
+
+        scanf("%d %d", &contestants, &solves);
+
+        for(i=0; i<contestants; i++) {
+                scanf(" %s", description);
+        }
+
+        printf("%d\n", solves);
+
+        return 0;
+}
